@@ -14,5 +14,6 @@ Inspirations:
 - https://www.thingiverse.com/thing:3378807 (Custom firmware 2.x by Remotheman)
 
 Instructions:
-- Copy the `Configuration.h`, `_Bootscreen.h` (or `Chippy_Bootscreen.h`; rename it `_Bootscreen.h`), and `Configuration_adv.h` to the `Marlin/ directory`
-- Flash the firmware onto your Melzi (//www.fission3d.com/guides/flash-bootloader-and-install-firmware-with-raspberry-pi might help)
+- Copy `Configuration.h`, `Configuration_adv.h`, and `_Bootscreen.h` (or `Chippy_Bootscreen.h`; rename it `_Bootscreen.h`) to the `Marlin/ directory`
+- Enable U8glib-HAL (https://registry.platformio.org/libraries/marlinfirmware/U8glib-HAL/installation)
+- Build & flash the firmware (https://marlinfw.org/docs/basics/install.html#source-install)
